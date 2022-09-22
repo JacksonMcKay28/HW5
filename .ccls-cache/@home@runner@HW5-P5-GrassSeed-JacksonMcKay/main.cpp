@@ -19,6 +19,8 @@ int main() {
   //for loop for calculating area as many times as there is lawns
   for(int i = 0; i < lawns; i++ ) {
     cin >> width >> length;
+    area = length * width;
   }
-  
+  cout << area * cost;
+  return 0;
 }
